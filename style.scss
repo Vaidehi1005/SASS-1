@@ -1,1 +1,41 @@
+$red: blue;
+$font-family: 'Courier New',
+Courier,
+monospace;
 
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 200px;
+    align-items: center;
+    border: 2px solid black;
+
+    h1 {
+        color: $red;
+        font-family: $font-family;
+        margin: 0;
+        padding: 0;
+        
+        // margin-right: 200px;
+    }
+
+    nav {
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        li {
+            color: $red;
+            margin-left: 10px;
+            font-size: 21px;
+        }
+    }
+}
